@@ -1,6 +1,6 @@
-import React from 'react';
-import UpcomingEvents from './widgets/UpcomingEvents';
-import Shortcuts from './widgets/Shortcuts';
+import React from "react";
+import UpcomingEvents from "./widgets/UpcomingEvents";
+import Shortcuts from "./widgets/Shortcuts";
 
 const LeftColumn: React.FC = () => {
   return (
@@ -9,25 +9,49 @@ const LeftColumn: React.FC = () => {
       <Shortcuts
         title="Contacts"
         items={[
-          { id: 1, name: 'Ali Frame', avatar: 'https://source.unsplash.com/random/40x40?face&1' },
-          { id: 2, name: 'Al Adam android online', avatar: 'https://source.unsplash.com/random/40x40?face&2' },
-          { id: 3, name: 'A1 demo referral contact', avatar: 'https://source.unsplash.com/random/40x40?face&3' },
+          {
+            id: 1,
+            name: "Ali Frame",
+            avatar: "https://i.pravatar.cc/150?u=fake@pravatar.com",
+          },
+          {
+            id: 2,
+            name: "Al Adam android online",
+            avatar: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+          },
+          {
+            id: 3,
+            name: "A1 demo referral contact",
+            avatar: "https://i.pravatar.cc/150?img=1",
+          },
         ]}
       />
       <Shortcuts
         title="Projects"
         items={[
-          { id: 1, name: 'A Training Project', color: 'bg-blue-500' },
-          { id: 2, name: 'A Test SMS', color: 'bg-green-500' },
-          { id: 3, name: 'A Training Project', color: 'bg-yellow-500' },
+          { id: 1, name: "A Training Project", color: "bg-blue-500" },
+          { id: 2, name: "A Test SMS", color: "bg-green-500" },
+          { id: 3, name: "A Training Project", color: "bg-yellow-500" },
         ]}
       />
       <Shortcuts
         title="Albums"
         items={[
-          { id: 1, name: 'Robertson Trust', thumbnail: 'https://source.unsplash.com/random/40x40?album' },
-          { id: 2, name: 'IASE Funding 2022', thumbnail: 'https://source.unsplash.com/random/40x40?funding' },
-          { id: 3, name: 'Funded Projects', thumbnail: 'https://source.unsplash.com/random/40x40?project' },
+          {
+            id: 1,
+            name: "Robertson Trust",
+            thumbnail: "https://i.pravatar.cc/150?img=2",
+          },
+          {
+            id: 2,
+            name: "IASE Funding 2022",
+            thumbnail: "https://i.pravatar.cc/150?img=4",
+          },
+          {
+            id: 3,
+            name: "Funded Projects",
+            thumbnail: "https://i.pravatar.cc/150?img=5",
+          },
         ]}
       />
     </div>

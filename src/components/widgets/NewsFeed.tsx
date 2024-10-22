@@ -1,24 +1,26 @@
-import React from 'react';
-import { ThumbsUp, MessageCircle, Share2 } from 'lucide-react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { ThumbsUp, MessageCircle, Share2 } from "lucide-react";
+import { motion } from "framer-motion";
 
 const NewsFeed: React.FC = () => {
   const posts = [
     {
       id: 1,
-      author: 'Yael Adamson-Brown',
-      avatar: 'https://source.unsplash.com/random/40x40?face&10',
-      content: '1 by Yael Adamson-Brown working at Harvesting starting at 15:00 on 18th February 2023 on Cereal Farming project for Farming Test',
-      timestamp: 'Posted 3 days ago',
+      author: "Amanuel Awol",
+      avatar: "https://i.pravatar.cc/150?img=3",
+      content:
+        "1 by Amanuel Awol working at Harvesting starting at 15:00 on 18th February 2024 on Cereal Farming project for Farming Test",
+      timestamp: "Posted 3 days ago",
       likes: 0,
       comments: 0,
     },
     {
       id: 2,
-      author: 'Yael Adamson-Brown',
-      avatar: 'https://source.unsplash.com/random/40x40?face&11',
-      content: '1 Event Session Attendance by Yael Adamson-Brown working at Harvest session starting at 05:00 on 17th February 2023 on Cereal Farming project for Farming Test with Farmer number 1, Farmer Number Test',
-      timestamp: 'Posted 4 days ago',
+      author: "Amanuel Awol",
+      avatar: "https://i.pravatar.cc/150?u=fake@pravatar.com",
+      content:
+        "1 Event Session Attendance by Amanuel Awol working at Harvest session starting at 05:00 on 17th February 2024 on Cereal Farming project for Farming Test with Farmer number 1, Farmer Number Test",
+      timestamp: "Posted 4 days ago",
       likes: 0,
       comments: 0,
     },
@@ -39,7 +41,11 @@ const NewsFeed: React.FC = () => {
           className="bg-white rounded-lg shadow-md p-6"
         >
           <div className="flex items-center mb-4">
-            <img src={post.avatar} alt={post.author} className="w-12 h-12 rounded-full mr-4" />
+            <img
+              src={post.avatar}
+              alt={post.author}
+              className="w-12 h-12 rounded-full mr-4"
+            />
             <div>
               <h3 className="font-semibold text-gray-800">{post.author}</h3>
               <p className="text-sm text-gray-500">{post.timestamp}</p>

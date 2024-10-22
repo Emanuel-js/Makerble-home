@@ -1,11 +1,11 @@
-import React from 'react';
-import { User, Plus } from 'lucide-react';
+import React from "react";
+import { User, Plus } from "lucide-react";
 
 const Contacts: React.FC = () => {
   const contacts = [
-    { id: 1, name: 'Alice Johnson', role: 'Designer' },
-    { id: 2, name: 'Bob Smith', role: 'Developer' },
-    { id: 3, name: 'Charlie Brown', role: 'Manager' },
+    { id: 1, name: "Alice Johnson", role: "Designer" },
+    { id: 2, name: "Bob Smith", role: "Developer" },
+    { id: 3, name: "Charlie Brown", role: "Manager" },
   ];
 
   return (
@@ -15,7 +15,9 @@ const Contacts: React.FC = () => {
           <li key={contact.id} className="flex items-center">
             <User className="text-gray-400 mr-2" size={20} />
             <div>
-              <p className="text-sm font-medium text-gray-800">{contact.name}</p>
+              <p className="text-sm font-medium text-gray-800">
+                {contact.name}
+              </p>
               <p className="text-xs text-gray-500">{contact.role}</p>
             </div>
           </li>

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import LeftColumn from './LeftColumn';
-import MiddleColumn from './MiddleColumn';
-import RightColumn from './RightColumn';
-import QuickAccess from './QuickAccess';
-import UserGuide from './UserGuide';
+import React, { useState } from "react";
+import LeftColumn from "./LeftColumn";
+import MiddleColumn from "./MiddleColumn";
+import RightColumn from "./RightColumn";
+import QuickAccess from "./QuickAccess";
+import UserGuide from "./UserGuide";
 
 const Dashboard: React.FC = () => {
   const [showGuide, setShowGuide] = useState(false);
@@ -11,10 +11,10 @@ const Dashboard: React.FC = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold text-gray-800">Welcome, Yael!</h1>
+        <h1 className="text-3xl font-bold text-gray-800">Welcome, Amanuel!</h1>
         <button
           onClick={() => setShowGuide(true)}
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300"
+          className="bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600 transition duration-300"
         >
           Show Guide
         </button>

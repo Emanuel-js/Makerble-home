@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import { Toaster } from 'react-hot-toast';
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);

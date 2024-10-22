@@ -1,12 +1,27 @@
-import React from 'react';
-import { Calendar, ChevronRight } from 'lucide-react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Calendar, ChevronRight } from "lucide-react";
+import { motion } from "framer-motion";
 
 const UpcomingEvents: React.FC = () => {
   const events = [
-    { id: 1, title: 'Youth panel', date: '15:00 02/03/23 - 15:30 02/03/23', color: 'bg-blue-500' },
-    { id: 2, title: 'Digital Inclusion Event', date: '10:00 06/03/23 - 15:00 06/03/23', color: 'bg-green-500' },
-    { id: 3, title: 'Youth', date: '15:00 02/04/23 - 15:30 02/04/23', color: 'bg-yellow-500' },
+    {
+      id: 1,
+      title: "Youth panel",
+      date: "15:00 02/10/24 - 15:30 02/10/24",
+      color: "bg-blue-500",
+    },
+    {
+      id: 2,
+      title: "Digital Inclusion Event",
+      date: "10:00 06/10/24 - 15:00 06/10/24",
+      color: "bg-green-500",
+    },
+    {
+      id: 3,
+      title: "Youth",
+      date: "15:00 02/10/24 - 15:30 02/10/24",
+      color: "bg-yellow-500",
+    },
   ];
 
   return (
